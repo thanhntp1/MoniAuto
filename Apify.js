@@ -228,7 +228,7 @@ async function repeatOpenAndClick(url, times) {
 
 	// Khởi tạo trình duyệt
     let browser;
-    browser = await puppeteer.launch({ headless: false , args: [
+    browser = await puppeteer.launch({ headless: true , args: [
         'protocolTimeout: 120000',
 		'--no-sandbox',
         '--disable-setuid-sandbox',
@@ -282,6 +282,6 @@ async function repeatOpenAndClick(url, times) {
 //chinguyen.qtkd1 					= ILAKL1P3
 //ta_bao554@guerrillamailblock.com 	= 3KJJFF0T
 
-repeatOpenAndClick('https://monica.im/invitation?c=3KJJFF0T',10);
+repeatOpenAndClick('https://monica.im/invitation?c=HBTSWA0R',10);
 
 
